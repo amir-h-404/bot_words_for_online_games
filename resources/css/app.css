@@ -1,0 +1,80 @@
+/* Tailwind css : */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    height: 100%;
+}
+
+/* set custom font : */
+.persian-font {
+    font-family: IRANSansX, serif;
+}
+
+/* define top animation : */
+.animateTop {
+    animation-name: animateTop;
+    animation-duration: 500ms;
+}
+
+/* Animation up to down : */
+@keyframes animateTop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 15%;
+        opacity: 1
+    }
+}
+
+/* change default style scrollbar : */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #bdbdbd;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3a3a3a;
+    border: 1px solid #3a3a3a;
+    height: 4px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
+
+/* change default style input range tag : */
+/* استایل برای خود اسلایدر */
+input[type=range] {
+    -webkit-appearance: none; /* حذف استایل پیش‌فرض در مرورگرهایی که از WebKit استفاده می‌کنند */
+    width: 100%; /* تعیین عرض اسلایدر */
+    height: 5px; /* تعیین ارتفاع خط اسلایدر */
+    background: #ddd; /* رنگ پس‌زمینه خط اسلایدر */
+    border-radius: 5px; /* گرد کردن گوشه‌های خط اسلایدر */
+    outline: none; /* حذف خط دور اسلایدر هنگام انتخاب */
+}
+
+/* استایل برای دستگیره اسلایدر */
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* حذف استایل پیش‌فرض در مرورگرهایی که از WebKit استفاده می‌کنند */
+    appearance: none;
+    width: 20px; /* تعیین عرض دستگیره */
+    height: 20px; /* تعیین ارتفاع دستگیره */
+    background: green; /* رنگ دستگیره */
+    cursor: grab; /* تغییر شکل نشانگر موس به دست هنگام قرار گرفتن روی دستگیره */
+    border-radius: 50%; /* دستگیره به شکل دایره */
+}
+
+/* استایل برای دستگیره اسلایدر در حالت :hover */
+input[type=range]:hover::-webkit-slider-thumb {
+    background: #45a049; /* تغییر رنگ دستگیره هنگام قرار گرفتن موس روی آن */
+}

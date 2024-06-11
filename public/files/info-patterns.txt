@@ -1,0 +1,18 @@
+letters of pattern :
+
+box1 => en : a //// fa : ا
+box2 => en : b //// fa : ب
+box3 => en : c //// fa : پ
+box4 => en : d //// fa : ت
+box5 => en : e //// fa : ج
+box6 => en : f //// fa : چ
+box7 => en : g //// fa : ح
+box8 => en : h //// fa : خ
+box9 => en : n //// fa : د
+box10 => en : m //// fa : ذ
+box11 => en : x //// fa : ر
+box12 => en : z //// fa : ز
+box13 => en : i //// fa : ع
+box14 => en : l //// fa : غ
+box15 => en : p //// fa : ف
+box16 => en : w //// fa : ق
