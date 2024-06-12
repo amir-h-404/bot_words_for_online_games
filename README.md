@@ -27,6 +27,11 @@ because you are a pro! However, if you are a beginner, make sure to study this p
 6. By default, a maximum of six words are returned. To change this, go to settings and select from 2 to 10.
 7. In the settings section, you can also change the language and the theme of the page.
 
+## Images:
+
+<img src="public/images/eng-1.jpg" alt="persian image 1" style="border-radius: 18px;display: block;margin: auto;padding-top: 8px;" width="600">
+<img src="public/images/eng-2.jpg" alt="persian image 1" style="border-radius: 18px;display: block;margin: auto;padding-top: 8px;" width="600">
+
 <h2 style="font-family: 'Segoe UI',serif;" dir="rtl">توضیحات فارسی :</h2>
 <ul style="font-family: 'Segoe UI',serif;" dir="rtl">
 <li>ربات لغت یاب به شما کمک می کند تا لغات بامعنی را با حروف دلخواه خود پیدا کنید.</li>
@@ -54,9 +59,7 @@ because you are a pro! However, if you are a beginner, make sure to study this p
 <p>7. در قسمت تنظیمات می توانید زبان و پوسته صفحه را هم تغییر دهید.</p>
 </div>
 
-## Images:
+<h2 style="font-family: 'Segoe UI',serif;" dir="rtl">تصاویر :</h2>
 
-<img src="https://biaupload.com/do.php?imgf=org-9256703c79e31.jpg" alt="persian image 1" style="border-radius: 18px;display: block;margin: auto;" width="600">
-<img src="https://biaupload.com/do.php?imgf=org-d352e40328fa2.jpg" alt="persian image 1" style="border-radius: 18px;display: block;margin: auto;padding-top: 8px;" width="600">
-<img src="https://biaupload.com/do.php?imgf=org-a38d852026753.jpg" alt="persian image 1" style="border-radius: 18px;display: block;margin: auto;padding-top: 8px;" width="600">
-<img src="https://biaupload.com/do.php?imgf=org-04430be5f2254.jpg" alt="persian image 1" style="border-radius: 18px;display: block;margin: auto;padding-top: 8px;" width="600">
+<img src="public/images/per-1.jpg" alt="example persian - image1" style="border-radius: 18px;display: block;margin: auto;" width="600">
+<img src="public/images/per-2.jpg" alt="example persian - image2" style="border-radius: 18px;display: block;margin: auto;padding-top: 8px;" width="600">
